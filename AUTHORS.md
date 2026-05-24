@@ -1,7 +1,12 @@
 # Authors
 
 - Sarang Vehale — National Forensic Sciences University, Delhi, India
-  (design, implementation, error analysis, benchmarks)
+
+- Ritu Goel — Department of Applied Science and Humanities, School of
+  Engineering \& Technology, Vivekananda Institute of Professional Studies - Technical
+  Campus, AU-Block (Outer Ring Road), Pitampura, Delhi -
+  110034, India
+  (mathematical verification, error analysis, supervision)
 
 <!-- Add the co-author before final submission:
 - REPLACE — National Forensic Sciences University, Delhi, India
