@@ -1,0 +1,602 @@
+[
+  {
+    "name": "heisenberg_1d_pbc",
+    "dim": 16,
+    "norm_H_F": 3.4641016151377544,
+    "norm_H_2": 1.9999999999999996,
+    "hermitian_err": 0.0,
+    "ground_state": -1.9999999999999996,
+    "highest": 1.0,
+    "eigh_global_time": 0.00014138221740722656,
+    "global_t1": {
+      "count": 4,
+      "total_eigs": 16,
+      "max_halfwidth": 3.730349362740526e-14,
+      "median_halfwidth": 3.630429290524262e-14,
+      "min_halfwidth": 3.567154296058021e-14,
+      "max_multiplicity": 7,
+      "tier_counts": {
+        "bauer-fike": 1,
+        "merged": 3
+      },
+      "time": 0.000133514404296875,
+      "all_contained": true,
+      "total_time_incl_eigh": 0.00027489662170410156
+    },
+    "global_t2": null,
+    "sector_t1": {
+      "count": 12,
+      "total_eigs": 16,
+      "max_halfwidth": 1.1657341758564144e-14,
+      "median_halfwidth": 4.6629367034256575e-15,
+      "min_halfwidth": 1.1102230246251565e-15,
+      "max_multiplicity": 3,
+      "tier_counts": {
+        "bauer-fike": 9,
+        "merged": 3
+      },
+      "time": 0.00046443939208984375,
+      "all_contained": true
+    },
+    "sector_t2": null,
+    "per_sector": [
+      {
+        "sector_label": -2.0,
+        "dim": 1,
+        "norm_H_s_F": 1.0,
+        "norm_H_s_2": 1.0,
+        "max_halfwidth": 1.1102230246251565e-15,
+        "median_halfwidth": 1.1102230246251565e-15
+      },
+      {
+        "sector_label": -1.0,
+        "dim": 4,
+        "norm_H_s_F": 1.4142135623730951,
+        "norm_H_s_2": 1.0,
+        "max_halfwidth": 4.884981308350689e-15,
+        "median_halfwidth": 4.440892098500626e-15
+      },
+      {
+        "sector_label": 0.0,
+        "dim": 6,
+        "norm_H_s_F": 2.449489742783178,
+        "norm_H_s_2": 1.9999999999999996,
+        "max_halfwidth": 1.1657341758564144e-14,
+        "median_halfwidth": 1.0103029524088925e-14
+      },
+      {
+        "sector_label": 1.0,
+        "dim": 4,
+        "norm_H_s_F": 1.4142135623730951,
+        "norm_H_s_2": 1.0,
+        "max_halfwidth": 4.884981308350689e-15,
+        "median_halfwidth": 4.440892098500626e-15
+      },
+      {
+        "sector_label": 2.0,
+        "dim": 1,
+        "norm_H_s_F": 1.0,
+        "norm_H_s_2": 1.0,
+        "max_halfwidth": 1.1102230246251565e-15,
+        "median_halfwidth": 1.1102230246251565e-15
+      }
+    ],
+    "ratio_t1_max": 3.2,
+    "ratio_t1_med": 7.785714285714286,
+    "speedup_global_over_sector": 0.5918891170431212,
+    "L": 4,
+    "label": "1D Heisenberg PBC"
+  },
+  {
+    "name": "heisenberg_1d_pbc",
+    "dim": 64,
+    "norm_H_F": 8.48528137423857,
+    "norm_H_2": 2.802775637731993,
+    "hermitian_err": 0.0,
+    "ground_state": -2.802775637731993,
+    "highest": 1.5000000000000004,
+    "eigh_global_time": 0.00045871734619140625,
+    "global_t1": {
+      "count": 13,
+      "total_eigs": 64,
+      "max_halfwidth": 3.455014052633487e-13,
+      "median_halfwidth": 3.4428015993626104e-13,
+      "min_halfwidth": 3.437805595751797e-13,
+      "max_multiplicity": 10,
+      "tier_counts": {
+        "bauer-fike": 3,
+        "merged": 10
+      },
+      "time": 0.00015687942504882812,
+      "all_contained": true,
+      "total_time_incl_eigh": 0.0006155967712402344
+    },
+    "global_t2": null,
+    "sector_t1": {
+      "count": 43,
+      "total_eigs": 64,
+      "max_halfwidth": 6.927791673660977e-14,
+      "median_halfwidth": 3.952393967665557e-14,
+      "min_halfwidth": 1.5543122344752192e-15,
+      "max_multiplicity": 3,
+      "tier_counts": {
+        "bauer-fike": 23,
+        "merged": 20
+      },
+      "time": 0.0008389949798583984,
+      "all_contained": true
+    },
+    "sector_t2": null,
+    "per_sector": [
+      {
+        "sector_label": -3.0,
+        "dim": 1,
+        "norm_H_s_F": 1.5,
+        "norm_H_s_2": 1.5,
+        "max_halfwidth": 1.5543122344752192e-15,
+        "median_halfwidth": 1.5543122344752192e-15
+      },
+      {
+        "sector_label": -2.0,
+        "dim": 6,
+        "norm_H_s_F": 2.1213203435596424,
+        "norm_H_s_2": 1.4999999999999996,
+        "max_halfwidth": 9.325873406851315e-15,
+        "median_halfwidth": 9.034439862887211e-15
+      },
+      {
+        "sector_label": -1.0,
+        "dim": 15,
+        "norm_H_s_F": 3.968626966596886,
+        "norm_H_s_2": 2.1180339887498953,
+        "max_halfwidth": 4.035660694512444e-14,
+        "median_halfwidth": 3.927413949611491e-14
+      },
+      {
+        "sector_label": 0.0,
+        "dim": 20,
+        "norm_H_s_F": 5.196152422706632,
+        "norm_H_s_2": 2.802775637731995,
+        "max_halfwidth": 6.927791673660977e-14,
+        "median_halfwidth": 6.750155989720952e-14
+      },
+      {
+        "sector_label": 1.0,
+        "dim": 15,
+        "norm_H_s_F": 3.968626966596886,
+        "norm_H_s_2": 2.118033988749895,
+        "max_halfwidth": 4.035660694512444e-14,
+        "median_halfwidth": 3.932965064734617e-14
+      },
+      {
+        "sector_label": 2.0,
+        "dim": 6,
+        "norm_H_s_F": 2.1213203435596424,
+        "norm_H_s_2": 1.4999999999999996,
+        "max_halfwidth": 9.325873406851315e-15,
+        "median_halfwidth": 9.034439862887211e-15
+      },
+      {
+        "sector_label": 3.0,
+        "dim": 1,
+        "norm_H_s_F": 1.5,
+        "norm_H_s_2": 1.5,
+        "max_halfwidth": 1.5543122344752192e-15,
+        "median_halfwidth": 1.5543122344752192e-15
+      }
+    ],
+    "ratio_t1_max": 4.987179487179487,
+    "ratio_t1_med": 8.710674157303371,
+    "speedup_global_over_sector": 0.7337311736288719,
+    "L": 6,
+    "label": "1D Heisenberg PBC"
+  },
+  {
+    "name": "heisenberg_1d_pbc",
+    "dim": 256,
+    "norm_H_F": 19.595917942265423,
+    "norm_H_2": 3.651093408937173,
+    "hermitian_err": 0.0,
+    "ground_state": -3.651093408937173,
+    "highest": 2.000000000000002,
+    "eigh_global_time": 0.0073316097259521484,
+    "global_t1": {
+      "count": 40,
+      "total_eigs": 256,
+      "max_halfwidth": 3.1601388172930456e-12,
+      "median_halfwidth": 3.1567665148557467e-12,
+      "min_halfwidth": 3.1551428136822324e-12,
+      "max_multiplicity": 23,
+      "tier_counts": {
+        "bauer-fike": 6,
+        "merged": 34
+      },
+      "time": 0.0016453266143798828,
+      "all_contained": true,
+      "total_time_incl_eigh": 0.008976936340332031
+    },
+    "global_t2": null,
+    "sector_t1": {
+      "count": 142,
+      "total_eigs": 256,
+      "max_halfwidth": 4.884981308350689e-13,
+      "median_halfwidth": 3.2568392427378967e-13,
+      "min_halfwidth": 2.220446049250313e-15,
+      "max_multiplicity": 5,
+      "tier_counts": {
+        "bauer-fike": 44,
+        "merged": 98
+      },
+      "time": 0.0026519298553466797,
+      "all_contained": true
+    },
+    "sector_t2": null,
+    "per_sector": [
+      {
+        "sector_label": -4.0,
+        "dim": 1,
+        "norm_H_s_F": 2.0,
+        "norm_H_s_2": 2.0,
+        "max_halfwidth": 2.220446049250313e-15,
+        "median_halfwidth": 2.220446049250313e-15
+      },
+      {
+        "sector_label": -3.0,
+        "dim": 8,
+        "norm_H_s_F": 3.4641016151377544,
+        "norm_H_s_2": 1.9999999999999998,
+        "max_halfwidth": 1.9317880628477724e-14,
+        "median_halfwidth": 1.8762769116165146e-14
+      },
+      {
+        "sector_label": -2.0,
+        "dim": 28,
+        "norm_H_s_F": 5.656854249492381,
+        "norm_H_s_2": 2.0000000000000004,
+        "max_halfwidth": 1.028066520802895e-13,
+        "median_halfwidth": 1.0183520693374248e-13
+      },
+      {
+        "sector_label": -1.0,
+        "dim": 56,
+        "norm_H_s_F": 9.16515138991168,
+        "norm_H_s_2": 3.1284190638445764,
+        "max_halfwidth": 3.277378368693462e-13,
+        "median_halfwidth": 3.255173908200959e-13
+      },
+      {
+        "sector_label": 0.0,
+        "dim": 70,
+        "norm_H_s_F": 10.954451150103322,
+        "norm_H_s_2": 3.6510934089371774,
+        "max_halfwidth": 4.884981308350689e-13,
+        "median_halfwidth": 4.8552788305808e-13
+      },
+      {
+        "sector_label": 1.0,
+        "dim": 56,
+        "norm_H_s_F": 9.16515138991168,
+        "norm_H_s_2": 3.1284190638445786,
+        "max_halfwidth": 3.2818192607919627e-13,
+        "median_halfwidth": 3.2573943542502093e-13
+      },
+      {
+        "sector_label": 2.0,
+        "dim": 28,
+        "norm_H_s_F": 5.656854249492381,
+        "norm_H_s_2": 1.9999999999999991,
+        "max_halfwidth": 1.0347278589506459e-13,
+        "median_halfwidth": 1.021405182655144e-13
+      },
+      {
+        "sector_label": 3.0,
+        "dim": 8,
+        "norm_H_s_F": 3.4641016151377544,
+        "norm_H_s_2": 1.9999999999999998,
+        "max_halfwidth": 1.9317880628477724e-14,
+        "median_halfwidth": 1.8762769116165146e-14
+      },
+      {
+        "sector_label": 4.0,
+        "dim": 1,
+        "norm_H_s_F": 2.0,
+        "norm_H_s_2": 2.0,
+        "max_halfwidth": 2.220446049250313e-15,
+        "median_halfwidth": 2.220446049250313e-15
+      }
+    ],
+    "ratio_t1_max": 6.469090909090909,
+    "ratio_t1_med": 9.692730526674621,
+    "speedup_global_over_sector": 3.3850579879528904,
+    "L": 8,
+    "label": "1D Heisenberg PBC"
+  },
+  {
+    "name": "heisenberg_1d_pbc",
+    "dim": 1024,
+    "norm_H_F": 43.81780460041329,
+    "norm_H_2": 4.515446354492043,
+    "hermitian_err": 0.0,
+    "ground_state": -4.515446354492043,
+    "highest": 2.5000000000000036,
+    "eigh_global_time": 0.1454634666442871,
+    "global_t1": {
+      "count": 139,
+      "total_eigs": 1024,
+      "max_halfwidth": 2.819855460245435e-11,
+      "median_halfwidth": 2.819150468624798e-11,
+      "min_halfwidth": 2.8189346690243866e-11,
+      "max_multiplicity": 26,
+      "tier_counts": {
+        "bauer-fike": 10,
+        "merged": 129
+      },
+      "time": 0.04419755935668945,
+      "all_contained": true,
+      "total_time_incl_eigh": 0.18966102600097656
+    },
+    "global_t2": null,
+    "sector_t1": {
+      "count": 557,
+      "total_eigs": 1024,
+      "max_halfwidth": 3.637090628672013e-12,
+      "median_halfwidth": 2.651878716619649e-12,
+      "min_halfwidth": 2.6645352591003757e-15,
+      "max_multiplicity": 4,
+      "tier_counts": {
+        "bauer-fike": 100,
+        "merged": 457
+      },
+      "time": 0.04059267044067383,
+      "all_contained": true
+    },
+    "sector_t2": null,
+    "per_sector": [
+      {
+        "sector_label": -5.0,
+        "dim": 1,
+        "norm_H_s_F": 2.5,
+        "norm_H_s_2": 2.5,
+        "max_halfwidth": 2.6645352591003757e-15,
+        "median_halfwidth": 2.6645352591003757e-15
+      },
+      {
+        "sector_label": -4.0,
+        "dim": 10,
+        "norm_H_s_F": 5.244044240850758,
+        "norm_H_s_2": 2.5000000000000004,
+        "max_halfwidth": 3.597122599785507e-14,
+        "median_halfwidth": 3.5360603334311236e-14
+      },
+      {
+        "sector_label": -3.0,
+        "dim": 45,
+        "norm_H_s_F": 8.440971508067067,
+        "norm_H_s_2": 2.5,
+        "max_halfwidth": 2.440270208126094e-13,
+        "median_halfwidth": 2.4202861936828413e-13
+      },
+      {
+        "sector_label": -2.0,
+        "dim": 120,
+        "norm_H_s_F": 13.784048752090222,
+        "norm_H_s_2": 2.9759318690544356,
+        "max_halfwidth": 1.0458300891968975e-12,
+        "median_halfwidth": 1.0432765762402596e-12
+      },
+      {
+        "sector_label": -1.0,
+        "dim": 210,
+        "norm_H_s_F": 20.062402647738878,
+        "norm_H_s_2": 4.092207346738663,
+        "max_halfwidth": 2.6556534749033744e-12,
+        "median_halfwidth": 2.6519897389221114e-12
+      },
+      {
+        "sector_label": 0.0,
+        "dim": 252,
+        "norm_H_s_F": 22.9128784747792,
+        "norm_H_s_2": 4.515446354492043,
+        "max_halfwidth": 3.637090628672013e-12,
+        "median_halfwidth": 3.6330938257833623e-12
+      },
+      {
+        "sector_label": 1.0,
+        "dim": 210,
+        "norm_H_s_F": 20.062402647738878,
+        "norm_H_s_2": 4.092207346738665,
+        "max_halfwidth": 2.6556534749033744e-12,
+        "median_halfwidth": 2.652100761224574e-12
+      },
+      {
+        "sector_label": 2.0,
+        "dim": 120,
+        "norm_H_s_F": 13.784048752090222,
+        "norm_H_s_2": 2.9759318690544383,
+        "max_halfwidth": 1.0460521338018225e-12,
+        "median_halfwidth": 1.0432904540280674e-12
+      },
+      {
+        "sector_label": 3.0,
+        "dim": 45,
+        "norm_H_s_F": 8.440971508067067,
+        "norm_H_s_2": 2.5000000000000018,
+        "max_halfwidth": 2.4436008771999695e-13,
+        "median_halfwidth": 2.4186208591459035e-13
+      },
+      {
+        "sector_label": 4.0,
+        "dim": 10,
+        "norm_H_s_F": 5.244044240850758,
+        "norm_H_s_2": 2.5000000000000004,
+        "max_halfwidth": 3.597122599785507e-14,
+        "median_halfwidth": 3.5360603334311236e-14
+      },
+      {
+        "sector_label": 5.0,
+        "dim": 1,
+        "norm_H_s_F": 2.5,
+        "norm_H_s_2": 2.5,
+        "max_halfwidth": 2.6645352591003757e-15,
+        "median_halfwidth": 2.6645352591003757e-15
+      }
+    ],
+    "ratio_t1_max": 7.753052503052503,
+    "ratio_t1_med": 10.630766976471573,
+    "speedup_global_over_sector": 4.672297336982697,
+    "L": 10,
+    "label": "1D Heisenberg PBC"
+  },
+  {
+    "name": "heisenberg_1d_pbc",
+    "dim": 4096,
+    "norm_H_F": 96.0,
+    "norm_H_2": 5.38739091744521,
+    "hermitian_err": 0.0,
+    "ground_state": -5.38739091744521,
+    "highest": 3.0000000000000004,
+    "eigh_global_time": 55.97831463813782,
+    "global_t1": {
+      "count": 489,
+      "total_eigs": 4096,
+      "max_halfwidth": 2.469877635746798e-10,
+      "median_halfwidth": 2.4697655032213106e-10,
+      "min_halfwidth": 2.4697441314280866e-10,
+      "max_multiplicity": 47,
+      "tier_counts": {
+        "bauer-fike": 20,
+        "merged": 469
+      },
+      "time": 2.563779354095459,
+      "all_contained": true,
+      "total_time_incl_eigh": 58.542093992233276
+    },
+    "global_t2": null,
+    "sector_t1": {
+      "count": 2143,
+      "total_eigs": 4096,
+      "max_halfwidth": 2.765832007867175e-11,
+      "median_halfwidth": 2.132399812282415e-11,
+      "min_halfwidth": 3.1086244689504383e-15,
+      "max_multiplicity": 5,
+      "tier_counts": {
+        "bauer-fike": 235,
+        "merged": 1908
+      },
+      "time": 0.44796156883239746,
+      "all_contained": true
+    },
+    "sector_t2": null,
+    "per_sector": [
+      {
+        "sector_label": -6.0,
+        "dim": 1,
+        "norm_H_s_F": 3.0,
+        "norm_H_s_2": 3.0,
+        "max_halfwidth": 3.1086244689504383e-15,
+        "median_halfwidth": 3.1086244689504383e-15
+      },
+      {
+        "sector_label": -5.0,
+        "dim": 12,
+        "norm_H_s_F": 7.3484692283495345,
+        "norm_H_s_2": 3.0,
+        "max_halfwidth": 5.850875339774575e-14,
+        "median_halfwidth": 5.795364188543317e-14
+      },
+      {
+        "sector_label": -4.0,
+        "dim": 66,
+        "norm_H_s_F": 12.727922061357855,
+        "norm_H_s_2": 2.9999999999999987,
+        "max_halfwidth": 5.342393194496253e-13,
+        "median_halfwidth": 5.32018873400375e-13
+      },
+      {
+        "sector_label": -3.0,
+        "dim": 220,
+        "norm_H_s_F": 20.346989949375804,
+        "norm_H_s_2": 3.0,
+        "max_halfwidth": 2.8201885271528226e-12,
+        "median_halfwidth": 2.8173019472887972e-12
+      },
+      {
+        "sector_label": -2.0,
+        "dim": 495,
+        "norm_H_s_F": 31.606961258558215,
+        "norm_H_s_2": 4.07052932596352,
+        "max_halfwidth": 9.838796444228137e-12,
+        "median_halfwidth": 9.83471637461264e-12
+      },
+      {
+        "sector_label": -1.0,
+        "dim": 792,
+        "norm_H_s_F": 42.8485705712571,
+        "norm_H_s_2": 5.031543403742436,
+        "max_halfwidth": 2.1331159061332983e-11,
+        "median_halfwidth": 2.1324608745487694e-11
+      },
+      {
+        "sector_label": 0.0,
+        "dim": 924,
+        "norm_H_s_F": 47.62352359916263,
+        "norm_H_s_2": 5.387390917445207,
+        "max_halfwidth": 2.765832007867175e-11,
+        "median_halfwidth": 2.7648439093752586e-11
+      },
+      {
+        "sector_label": 1.0,
+        "dim": 792,
+        "norm_H_s_F": 42.8485705712571,
+        "norm_H_s_2": 5.031543403742436,
+        "max_halfwidth": 2.1334933819616708e-11,
+        "median_halfwidth": 2.1324608745487694e-11
+      },
+      {
+        "sector_label": 2.0,
+        "dim": 495,
+        "norm_H_s_F": 31.606961258558215,
+        "norm_H_s_2": 4.070529325963519,
+        "max_halfwidth": 9.839684622647837e-12,
+        "median_halfwidth": 9.834688619037024e-12
+      },
+      {
+        "sector_label": 3.0,
+        "dim": 220,
+        "norm_H_s_F": 20.346989949375804,
+        "norm_H_s_2": 3.0000000000000004,
+        "max_halfwidth": 2.8197444379429726e-12,
+        "median_halfwidth": 2.8173574584400285e-12
+      },
+      {
+        "sector_label": 4.0,
+        "dim": 66,
+        "norm_H_s_F": 12.727922061357855,
+        "norm_H_s_2": 3.0000000000000013,
+        "max_halfwidth": 5.339062525422378e-13,
+        "median_halfwidth": 5.321854068540688e-13
+      },
+      {
+        "sector_label": 5.0,
+        "dim": 12,
+        "norm_H_s_F": 7.3484692283495345,
+        "norm_H_s_2": 3.0,
+        "max_halfwidth": 5.850875339774575e-14,
+        "median_halfwidth": 5.795364188543317e-14
+      },
+      {
+        "sector_label": 6.0,
+        "dim": 1,
+        "norm_H_s_F": 3.0,
+        "norm_H_s_2": 3.0,
+        "max_halfwidth": 3.1086244689504383e-15,
+        "median_halfwidth": 3.1086244689504383e-15
+      }
+    ],
+    "ratio_t1_max": 8.929962588911547,
+    "ratio_t1_med": 11.582093981605617,
+    "speedup_global_over_sector": 130.68552765546838,
+    "L": 12,
+    "label": "1D Heisenberg PBC"
+  }
+]

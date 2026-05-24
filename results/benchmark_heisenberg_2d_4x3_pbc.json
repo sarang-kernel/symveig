@@ -1,0 +1,156 @@
+[
+  {
+    "name": "heisenberg_2d_4x3_pbc",
+    "dim": 4096,
+    "norm_H_F": 135.7645019878171,
+    "norm_H_2": 7.368217694134071,
+    "hermitian_err": 0.0,
+    "ground_state": -7.368217694134071,
+    "highest": 6.0000000000000036,
+    "eigh_global_time": 57.03439998626709,
+    "global_t1": {
+      "count": 423,
+      "total_eigs": 4096,
+      "max_halfwidth": 3.4929303893704855e-10,
+      "median_halfwidth": 3.492771627477964e-10,
+      "min_halfwidth": 3.4927372105642007e-10,
+      "max_multiplicity": 93,
+      "tier_counts": {
+        "bauer-fike": 24,
+        "merged": 399
+      },
+      "time": 2.5367162227630615,
+      "all_contained": true,
+      "total_time_incl_eigh": 59.57111620903015
+    },
+    "global_t2": null,
+    "sector_t1": {
+      "count": 1817,
+      "total_eigs": 4096,
+      "max_halfwidth": 3.838440676418031e-11,
+      "median_halfwidth": 2.935746090670932e-11,
+      "min_halfwidth": 6.217248937900877e-15,
+      "max_multiplicity": 17,
+      "tier_counts": {
+        "bauer-fike": 521,
+        "merged": 1296
+      },
+      "time": 0.575695276260376,
+      "all_contained": true
+    },
+    "sector_t2": null,
+    "per_sector": [
+      {
+        "sector_label": -6.0,
+        "dim": 1,
+        "norm_H_s_F": 6.0,
+        "norm_H_s_2": 6.0,
+        "max_halfwidth": 6.217248937900877e-15,
+        "median_halfwidth": 6.217248937900877e-15
+      },
+      {
+        "sector_label": -5.0,
+        "dim": 12,
+        "norm_H_s_F": 14.2828568570857,
+        "norm_H_s_2": 6.0,
+        "max_halfwidth": 1.163513729807164e-13,
+        "median_halfwidth": 1.1513012765362873e-13
+      },
+      {
+        "sector_label": -4.0,
+        "dim": 66,
+        "norm_H_s_F": 22.44994432064365,
+        "norm_H_s_2": 6.0,
+        "max_halfwidth": 9.42801392511683e-13,
+        "median_halfwidth": 9.385547894424917e-13
+      },
+      {
+        "sector_label": -3.0,
+        "dim": 220,
+        "norm_H_s_F": 30.397368307141328,
+        "norm_H_s_2": 5.999999999999999,
+        "max_halfwidth": 4.215516824501719e-12,
+        "median_halfwidth": 4.2092197782839236e-12
+      },
+      {
+        "sector_label": -2.0,
+        "dim": 495,
+        "norm_H_s_F": 43.40506882842141,
+        "norm_H_s_2": 6.000000000000001,
+        "max_halfwidth": 1.3524292796773807e-11,
+        "median_halfwidth": 1.3505641049960104e-11
+      },
+      {
+        "sector_label": -1.0,
+        "dim": 792,
+        "norm_H_s_F": 58.9915248150105,
+        "norm_H_s_2": 6.476531750095812,
+        "max_halfwidth": 2.938094212368014e-11,
+        "median_halfwidth": 2.935818255167533e-11
+      },
+      {
+        "sector_label": 0.0,
+        "dim": 924,
+        "norm_H_s_F": 66.09084656743322,
+        "norm_H_s_2": 7.36821769413407,
+        "max_halfwidth": 3.838440676418031e-11,
+        "median_halfwidth": 3.8369973864860185e-11
+      },
+      {
+        "sector_label": 1.0,
+        "dim": 792,
+        "norm_H_s_F": 58.9915248150105,
+        "norm_H_s_2": 6.476531750095814,
+        "max_halfwidth": 2.938271848051954e-11,
+        "median_halfwidth": 2.935818255167533e-11
+      },
+      {
+        "sector_label": 2.0,
+        "dim": 495,
+        "norm_H_s_F": 43.40506882842141,
+        "norm_H_s_2": 5.999999999999998,
+        "max_halfwidth": 1.3522516439934407e-11,
+        "median_halfwidth": 1.3505585538808873e-11
+      },
+      {
+        "sector_label": 3.0,
+        "dim": 220,
+        "norm_H_s_F": 30.397368307141328,
+        "norm_H_s_2": 6.000000000000001,
+        "max_halfwidth": 4.215072735291869e-12,
+        "median_halfwidth": 4.2090775309588935e-12
+      },
+      {
+        "sector_label": 4.0,
+        "dim": 66,
+        "norm_H_s_F": 22.44994432064365,
+        "norm_H_s_2": 6.0000000000000036,
+        "max_halfwidth": 9.423573033018329e-13,
+        "median_halfwidth": 9.388045896230324e-13
+      },
+      {
+        "sector_label": 5.0,
+        "dim": 12,
+        "norm_H_s_F": 14.2828568570857,
+        "norm_H_s_2": 6.0,
+        "max_halfwidth": 1.163513729807164e-13,
+        "median_halfwidth": 1.1513012765362873e-13
+      },
+      {
+        "sector_label": 6.0,
+        "dim": 1,
+        "norm_H_s_F": 6.0,
+        "norm_H_s_2": 6.0,
+        "max_halfwidth": 6.217248937900877e-15,
+        "median_halfwidth": 6.217248937900877e-15
+      }
+    ],
+    "ratio_t1_max": 9.099868107457713,
+    "ratio_t1_med": 11.897390031709895,
+    "speedup_global_over_sector": 103.47681953549203,
+    "L": 12,
+    "Lx": 4,
+    "Ly": 3,
+    "label": "2D Heisenberg 4x3 PBC"
+  }
+]

@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: >-
+  symveig: Verified eigenvalue enclosures for
+  symmetry-decomposed Hermitian matrices
+message: >-
+  If you use this software, please cite both the software
+  (this record) and the accompanying paper.
+type: software
+authors:
+  - given-names: Sarang
+    family-names: Vehale
+    affiliation: National Forensic Sciences University, Delhi, India
+    # orcid: 'https://orcid.org/REPLACE-WITH-ORCID'
+  # - given-names: REPLACE
+  #   family-names: WITH-COAUTHOR
+  #   affiliation: National Forensic Sciences University, Delhi, India
+version: 1.0.0
+date-released: '2026-05-22'
+license: MIT
+repository-code: 'https://github.com/REPLACE_WITH_USER/symveig'
+keywords:
+  - verified computing
+  - interval arithmetic
+  - eigenvalue enclosure
+  - exact diagonalization
+  - quantum lattice models
+  - symmetry sectors
+  - rigorous numerics
+abstract: >-
+  symveig computes rigorous, machine-checkable enclosures of all
+  eigenvalues of a Hermitian matrix, with an optional symmetry-sector
+  decomposition that produces tighter bounds and faster computation for
+  quantum lattice Hamiltonians possessing abelian (U(1)-type) conserved
+  quantities. The enclosure widths are guaranteed upper bounds on the
+  distance from each computed eigenvalue to the nearest true eigenvalue
+  under IEEE 754 round-to-nearest arithmetic, derived with explicit
+  floating-point error analysis. The implementation is pure NumPy/SciPy
+  and requires neither INTLAB nor MATLAB.
+# Once archived on Zenodo, add:
+# doi: '10.5281/zenodo.REPLACE'
+# preferred-citation:
+#   type: article
+#   title: 'REPLACE WITH PAPER TITLE'
+#   authors:
+#     - given-names: Sarang
+#       family-names: Vehale
+#   journal: 'Computer Physics Communications'
+#   year: 2026

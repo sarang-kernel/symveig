@@ -1,0 +1,131 @@
+[
+  {
+    "name": "heisenberg_2d_3x3_pbc",
+    "dim": 512,
+    "norm_H_F": 41.569219381653056,
+    "norm_H_2": 4.500000000000003,
+    "hermitian_err": 0.0,
+    "ground_state": -3.969001749928522,
+    "highest": 4.500000000000003,
+    "eigh_global_time": 0.05837082862854004,
+    "global_t1": {
+      "count": 31,
+      "total_eigs": 512,
+      "max_halfwidth": 1.3385736963300587e-11,
+      "median_halfwidth": 1.3379741758967612e-11,
+      "min_halfwidth": 1.3376993956981664e-11,
+      "max_multiplicity": 60,
+      "tier_counts": {
+        "merged": 31
+      },
+      "time": 0.006164073944091797,
+      "all_contained": true,
+      "total_time_incl_eigh": 0.06453490257263184
+    },
+    "global_t2": null,
+    "sector_t1": {
+      "count": 134,
+      "total_eigs": 512,
+      "max_halfwidth": 1.6653345369377348e-12,
+      "median_halfwidth": 8.15347789284715e-13,
+      "min_halfwidth": 5.329070518200751e-15,
+      "max_multiplicity": 13,
+      "tier_counts": {
+        "merged": 102,
+        "bauer-fike": 32
+      },
+      "time": 0.00974273681640625,
+      "all_contained": true
+    },
+    "sector_t2": null,
+    "per_sector": [
+      {
+        "sector_label": -4.5,
+        "dim": 1,
+        "norm_H_s_F": 4.5,
+        "norm_H_s_2": 4.5,
+        "max_halfwidth": 5.329070518200751e-15,
+        "median_halfwidth": 5.329070518200751e-15
+      },
+      {
+        "sector_label": -3.5,
+        "dim": 9,
+        "norm_H_s_F": 8.077747210701755,
+        "norm_H_s_2": 4.499999999999999,
+        "max_halfwidth": 4.973799150320701e-14,
+        "median_halfwidth": 4.951594689828198e-14
+      },
+      {
+        "sector_label": -2.5,
+        "dim": 36,
+        "norm_H_s_F": 10.392304845413264,
+        "norm_H_s_2": 4.499999999999999,
+        "max_halfwidth": 2.4158453015843406e-13,
+        "median_halfwidth": 2.3936408410918375e-13
+      },
+      {
+        "sector_label": -1.5,
+        "dim": 84,
+        "norm_H_s_F": 15.297058540778355,
+        "norm_H_s_2": 4.499999999999999,
+        "max_halfwidth": 8.189005029635155e-13,
+        "median_halfwidth": 8.133493878403897e-13
+      },
+      {
+        "sector_label": -0.5,
+        "dim": 126,
+        "norm_H_s_F": 20.89258241577618,
+        "norm_H_s_2": 4.4999999999999964,
+        "max_halfwidth": 1.6644463585180347e-12,
+        "median_halfwidth": 1.6603940444781529e-12
+      },
+      {
+        "sector_label": 0.5,
+        "dim": 126,
+        "norm_H_s_F": 20.89258241577618,
+        "norm_H_s_2": 4.500000000000001,
+        "max_halfwidth": 1.6653345369377348e-12,
+        "median_halfwidth": 1.6606160890830779e-12
+      },
+      {
+        "sector_label": 1.5,
+        "dim": 84,
+        "norm_H_s_F": 15.297058540778355,
+        "norm_H_s_2": 4.499999999999999,
+        "max_halfwidth": 8.162359677044151e-13,
+        "median_halfwidth": 8.135714324453147e-13
+      },
+      {
+        "sector_label": 2.5,
+        "dim": 36,
+        "norm_H_s_F": 10.392304845413264,
+        "norm_H_s_2": 4.500000000000001,
+        "max_halfwidth": 2.424727085781342e-13,
+        "median_halfwidth": 2.396138842897244e-13
+      },
+      {
+        "sector_label": 3.5,
+        "dim": 9,
+        "norm_H_s_F": 8.077747210701755,
+        "norm_H_s_2": 4.499999999999999,
+        "max_halfwidth": 4.973799150320701e-14,
+        "median_halfwidth": 4.951594689828198e-14
+      },
+      {
+        "sector_label": 4.5,
+        "dim": 1,
+        "norm_H_s_F": 4.5,
+        "norm_H_s_2": 4.5,
+        "max_halfwidth": 5.329070518200751e-15,
+        "median_halfwidth": 5.329070518200751e-15
+      }
+    ],
+    "ratio_t1_max": 8.037866666666666,
+    "ratio_t1_med": 16.409858387799563,
+    "speedup_global_over_sector": 6.623898786217698,
+    "L": 9,
+    "Lx": 3,
+    "Ly": 3,
+    "label": "2D Heisenberg 3x3 PBC"
+  }
+]
